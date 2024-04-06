@@ -1,0 +1,137 @@
+body{
+    margin: 0%;
+}
+.navbar{
+    width:98%;
+    height: 65px;
+    color:rgb(109, 109, 109);
+    padding-left: 30px;
+    display: flex;
+    align-items: center;
+
+}
+.dribbble{
+    color:black;
+    font-weight: 1rem;
+    font-family: Script MT;
+    font-size: 30px;
+}
+.nav-options {
+    width:700px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-left: 30px;
+    padding-right: 10px;
+}
+
+.navright{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: 30%;
+    margin-left: 200px;
+}
+
+button{
+    width: 60px;
+}
+
+input[type="submit"] {
+    background-color: #ff35a4;
+    color: white;
+    width: 100px;
+    height: 30px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    border: none;
+    cursor: pointer;
+    justify-content: center;
+    margin-right: 0;
+    margin-left: 10px;
+}
+
+input[type="submit"]:hover {
+    background-color: #cb0b75;
+}
+
+/* ------------------mail verification section-------------- */
+.mailsection{
+    justify-content: center;
+    align-items: center;
+    padding-top: 50px;
+    margin-bottom: 100px;    
+}
+.mailsection h1{
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+
+}
+
+.mailsection i{
+    font-size: 90px;
+    color:#9f9e9e;
+    display: flex;
+    justify-content: center;
+}
+
+.content{
+    font-size: 19px;
+    justify-content: center;
+}
+.content p{
+    display: flex;
+    justify-content: center;
+}
+.pink{
+    color: #cb0b75;
+}
+
+/* ------------footer----------- */
+.footer{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    background-color: #fbf7f7;
+}
+
+.leftside{
+    font-family: Script MT;
+    margin-left: 50px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    color: #d3216b;
+    width: 20%;
+    height: 300px;
+}
+
+.leftside p{
+    font-size: 15px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #7f7d7d;
+}
+
+.leftside i{
+    font-size: 20px;
+    margin-right: 13px;
+    margin-top: 15px;
+    color: #555454;
+}
+
+.rightside{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    width: 80%;
+    height: 300px;
+    display: flex;
+    color:#7f7d7d;
+    justify-content: space-around;
+}
+.rightside h3{
+    color: #484848;
+}
